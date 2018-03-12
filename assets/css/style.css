@@ -1,0 +1,49 @@
+/* Your custom styles */
+
+#index_div, #create_div, #update_div, #delete_div, #status_div {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+
+/* Media query for last device which screen grater than 400px */
+@media (min-width: 400px) {
+   div > .button_set {
+   	margin-top: -55px !important;
+   }
+
+   div > .button_set > div{
+   	text-align: right !important;
+   }
+
+   .table-responsive1{
+      display: -moz-deck !important;
+      width: 100%;
+      overflow-x: auto;
+   }
+}
+
+/* Media query for small device which screen less than 400px */
+@media screen and (max-width: 399px) and (min-width: 200px){
+   div > .button_set {
+   	margin-top: -10px !important;
+   }
+
+   div > .button_set > div{
+		text-align: left !important;
+		padding-left: 10px;
+   }
+
+   .table-responsive1{
+      display: block !important;
+      width: 100%;
+      overflow-x: auto;
+   }
+}
+
+
+/*Set table text alignment for heading and data*/
+thead > tr > th, thead > tr > td, tbody > tr > td {
+   text-align: center;
+}
