@@ -1,0 +1,8 @@
+Intrigation of Woo REST API, Please follow the below steps
+
+1. Install php in you system and set globally.
+
+2. Install composer using below link 
+	https://getcomposer.org/download/
+
+3. set composer path as globally.
